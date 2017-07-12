@@ -2,7 +2,16 @@
 
 namespace Polidog\QueryLocatorBundle;
 
+use Polidog\QueryLocatorBundle\Exception\ContainerRegisteredException;
+
 interface QueryLocatorRegisterInterface
 {
-    public function register(string $name, string $sqlDir, bool $useApc);
+    /**
+     * @param string $name
+     * @param string $sqlDir
+     * @param bool $useApc
+     *
+     * @throws ContainerRegisteredException
+     */
+    public function register($name, $sqlDir, $useApc);
 }

@@ -31,7 +31,7 @@ class QueryLocatorRegister implements QueryLocatorRegisterInterface
      *
      * @throws ContainerRegisteredException
      */
-    public function register(string $name, string $sqlDir, bool $useApc)
+    public function register($name, $sqlDir, $useApc)
     {
         $id = $this->getId($name);
         $class = $this->getQueryLoaderName($useApc);
