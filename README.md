@@ -42,4 +42,4 @@ SQL files
 
 ## Requirements
 
- * PHP 5.5+
+ * PHP 5.6+
