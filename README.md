@@ -1,7 +1,6 @@
 # PolidogQueryLocatorBundle
 
-[![Build Status](https://travis-ci.org/polidog/QueryLocatorBundle.svg?branch=master)](https://travis-ci.org/polidog/QueryLocatorBundle)
-
+[![Build Status](https://travis-ci.org/polidog/QueryLocatorBundle.svg?branch=1.x)](https://travis-ci.org/polidog/QueryLocatorBundle)
 QueryLocatoer for Symfony Bundle.  
 using [Koriym.QueryLocator](https://github.com/koriym/Koriym.QueryLocator).
 
