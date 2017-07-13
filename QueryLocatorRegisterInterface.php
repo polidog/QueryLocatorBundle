@@ -9,7 +9,7 @@ interface QueryLocatorRegisterInterface
     /**
      * @param string $name
      * @param string $sqlDir
-     * @param bool $useApc
+     * @param bool   $useApc
      *
      * @throws ContainerRegisteredException
      */
