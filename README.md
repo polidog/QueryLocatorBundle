@@ -19,7 +19,7 @@ app/config.yml
     
 ```yaml
 polidog_query_locator:
-    locators
+    locators:
         user_queries:
             sql_dir: "../../sqldir"
             use_apc: false # Default to false.
